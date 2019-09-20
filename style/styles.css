@@ -1,0 +1,40 @@
+  
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+.opciones{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  justify-content: space-around;
+  align-items: center;
+}
+.imagen{
+
+width: 350px;
+height: 350px;
+background-color: gray;
+transition: 0.4s;
+display: block;
+position: relative;
+z-index: -2;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 30px;
+
+}
+.nombre, .rotacion {
+  height: 10em;
+}
